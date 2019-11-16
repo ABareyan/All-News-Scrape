@@ -1,0 +1,34 @@
+.navbar-invers .navbar-nav>li>a.sacrape-new :active {
+  background-color: #e52c23;
+}
+
+.navbar-invers .navbar-nav>li>a.sacrape-new :hover {
+  background-color: #4caf50;
+}
+
+.sacrape-new {
+  cursor: pointer;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+}
+
+.bootbox-body .btn {
+  float: right;
+  padding: 10px;
+}
+
+.note.list-group-item {
+  padding: 30px;
+}
+
+.note.list-group-item .btn {
+  position: relative;
+  bottom: 10px;
+}

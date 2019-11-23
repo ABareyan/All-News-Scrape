@@ -1,3 +1,9 @@
+.background-image {
+  background-image: url("../img/cnn.jpeg")
+}
+
+
+
 .navbar-invers .navbar-nav>li>a.sacrape-new :active {
   background-color: #e52c23;
 }

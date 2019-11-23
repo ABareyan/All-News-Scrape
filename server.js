@@ -24,11 +24,11 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(router);
 
 //Mongoose
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
-mongoose.connect(db, function(error) {
+mongoose.connect(MONGODB_URI, function(error) {
     if (error) {
-        throw error;
+        console.log(error);
     } else {
         console.log("mongoose connection success!");
         
